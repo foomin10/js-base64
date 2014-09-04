@@ -183,7 +183,3 @@
     }
     // that's it!
 })(this);
-
-if (this['Meteor']) {
-    Base64 = global.Base64; // for normal export in Meteor.js
-}
